@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06d63987-0d67-4e2d-a52c-adcb18d1b3e0" name="Default Changelist" comment="" />
+    <list default="true" id="06d63987-0d67-4e2d-a52c-adcb18d1b3e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Encrypt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/EncryptMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Encryptors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/EncryptorsFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Tutorials.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RegisterManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ReverseEncrypt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ReverseSkipFirstEncrypt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SwitchLastFirstEncrypt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UserDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UsersRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ReverseEncryptTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ReverseSkipFirstEncryptTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SwitchLastFirstEncryptTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UsersRepositoryTest.class" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +38,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -26,9 +50,12 @@
     </option>
   </component>
   <component name="ProjectId" id="1flr5oSSNNmfSguOzy6JE6zQphx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -51,7 +78,7 @@
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Tutorials" />
+      <module name="Spring" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -95,6 +122,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.ReverseSkipFirstEncryptTest.testReverseEncrypt" />
+      <item itemvalue="JUnit.SwitchLastFirstEncryptTest.testReverseEncrypt" />
+      <item itemvalue="JUnit.UsersRepositoryTest" />
+      <item itemvalue="JUnit.UsersRepositoryTest.addUserTest" />
+      <item itemvalue="Application.Main" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -119,11 +153,23 @@
       <workItem from="1597155871219" duration="598000" />
       <workItem from="1597647666244" duration="510000" />
       <workItem from="1597655348471" duration="9595000" />
+      <workItem from="1597940923058" duration="55000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

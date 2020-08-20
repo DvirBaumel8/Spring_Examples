@@ -6,6 +6,7 @@ public class Main {
     public static void main(String[] args) {
         ApplicationContext ctx = new AnnotationConfigApplicationContext(MainConfiguration.class);
         RegisterManager registerManager = ctx.getBean("registerManager", RegisterManager.class);
+        RegisterManager registerManager = ctx.getBean("registerManager", RegisterManager.class);
 
         try {
             registerManager.run();
