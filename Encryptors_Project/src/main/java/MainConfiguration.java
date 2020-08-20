@@ -8,7 +8,6 @@ import java.util.Map;
 @Configuration
 public class MainConfiguration {
     @Bean
-    @Lazy
     public EncryptorsFactory encryptCreatorFactory() {
         EncryptorsFactory factory = new EncryptorsFactory();
         Map<EncryptMethod, Encrypt> encrypts = new EnumMap<>(EncryptMethod.class);

@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06d63987-0d67-4e2d-a52c-adcb18d1b3e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Encrypt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/EncryptMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Encryptors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/EncryptorsFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Tutorials.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RegisterManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ReverseEncrypt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ReverseSkipFirstEncrypt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SwitchLastFirstEncrypt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UserDetails.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UsersRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ReverseEncryptTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ReverseSkipFirstEncryptTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SwitchLastFirstEncryptTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UsersRepositoryTest.class" beforeDir="false" />
-    </list>
+    <list default="true" id="06d63987-0d67-4e2d-a52c-adcb18d1b3e0" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,11 +103,11 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.ReverseSkipFirstEncryptTest.testReverseEncrypt" />
       <item itemvalue="JUnit.SwitchLastFirstEncryptTest.testReverseEncrypt" />
       <item itemvalue="JUnit.UsersRepositoryTest" />
       <item itemvalue="JUnit.UsersRepositoryTest.addUserTest" />
-      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
@@ -154,8 +133,23 @@
       <workItem from="1597155871219" duration="598000" />
       <workItem from="1597647666244" duration="510000" />
       <workItem from="1597655348471" duration="9595000" />
-      <workItem from="1597940923058" duration="55000" />
+      <workItem from="1597940923058" duration="189000" />
     </task>
+    <task id="LOCAL-00001" summary="configurations">
+      <created>1597941052576</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597941052576</updated>
+    </task>
+    <task id="LOCAL-00002" summary="configurations">
+      <created>1597941083089</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597941083089</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +165,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="configurations" />
+    <option name="LAST_COMMIT_MESSAGE" value="configurations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
