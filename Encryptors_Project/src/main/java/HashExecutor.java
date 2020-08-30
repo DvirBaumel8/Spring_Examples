@@ -1,8 +1,8 @@
-public abstract class Encrypt implements Encryptors {
+public abstract class HashExecutor implements PasswordEncoder {
     private String method;
     private int strong;
 
-    public Encrypt(String method, int strong) {
+    public HashExecutor(String method, int strong) {
         this.method = method;
         this.strong = strong;
     }

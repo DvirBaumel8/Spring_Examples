@@ -1,7 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06d63987-0d67-4e2d-a52c-adcb18d1b3e0" name="Default Changelist" comment="" />
+    <list default="true" id="06d63987-0d67-4e2d-a52c-adcb18d1b3e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Crc32Hash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HashExecutorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0a8fb0fe245abbc70e4f02adf0632a9e000c3ebf" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0a8fb0fe245abbc70e4f02adf0632a9e000c3ebf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/13225ea7515613c59500c65d5bdf977e3bba99ac" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/13225ea7515613c59500c65d5bdf977e3bba99ac" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/d/9d268acef164b828c8ad90b19a999a9c46b40868" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/d/9d268acef164b828c8ad90b19a999a9c46b40868" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/1/b1416f90e62d21b62ce95f66477bd16183bc4c22" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/1/b1416f90e62d21b62ce95f66477bd16183bc4c22" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e44a8606ce010ad9b89aafdfcee2ab49afbf6d10" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e44a8606ce010ad9b89aafdfcee2ab49afbf6d10" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Encrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HashExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EncryptMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HashMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Encryptors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PasswordEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EncryptorsFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RegisterManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RegisterManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReverseEncrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SHA512Hash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReverseSkipFirstEncrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Adler32Hash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SwitchLastFirstEncrypt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/conf.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ReverseEncryptTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SHA512HashTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ReverseSkipFirstEncryptTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Adler32HashTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SwitchLastFirstEncryptTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Crc32HashTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Encrypt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/EncryptMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Encryptors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/EncryptorsFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RegisterManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RegisterManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ReverseEncrypt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ReverseSkipFirstEncrypt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SwitchLastFirstEncrypt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/conf.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ReverseEncryptTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ReverseSkipFirstEncryptTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SwitchLastFirstEncryptTest.class" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,67 +92,68 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="JUnit.All in Spring">
+    <configuration name="Adler32HashTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spring" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseSkipFirstEncryptTest.testReverseEncrypt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Tutorials" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ReverseSkipFirstEncryptTest" />
-      <option name="METHOD_NAME" value="testReverseEncrypt" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SwitchLastFirstEncryptTest.testReverseEncrypt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Tutorials" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SwitchLastFirstEncryptTest" />
-      <option name="METHOD_NAME" value="testReverseEncrypt" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UsersRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Tutorials" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UsersRepositoryTest" />
+      <option name="MAIN_CLASS_NAME" value="Adler32HashTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsersRepositoryTest.addUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Tutorials" />
+    <configuration name="Adler32HashTest.adlerHashTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UsersRepositoryTest" />
-      <option name="METHOD_NAME" value="addUserTest" />
+      <option name="MAIN_CLASS_NAME" value="Adler32HashTest" />
+      <option name="METHOD_NAME" value="adlerHashTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in Spring" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Crc32HashTest.adlerHashTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Crc32HashTest" />
+      <option name="METHOD_NAME" value="adlerHashTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SHA512HashTest.sha512HashTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SHA512HashTest" />
+      <option name="METHOD_NAME" value="sha512HashTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.ReverseSkipFirstEncryptTest.testReverseEncrypt" />
-      <item itemvalue="JUnit.SwitchLastFirstEncryptTest.testReverseEncrypt" />
-      <item itemvalue="JUnit.UsersRepositoryTest" />
-      <item itemvalue="JUnit.UsersRepositoryTest.addUserTest" />
+      <item itemvalue="JUnit.Adler32HashTest.adlerHashTest" />
+      <item itemvalue="JUnit.Adler32HashTest" />
+      <item itemvalue="JUnit.Crc32HashTest.adlerHashTest" />
+      <item itemvalue="JUnit.SHA512HashTest.sha512HashTest" />
+      <item itemvalue="JUnit.All in Spring" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.UsersRepositoryTest.addUserTest" />
-        <item itemvalue="JUnit.UsersRepositoryTest" />
-        <item itemvalue="JUnit.SwitchLastFirstEncryptTest.testReverseEncrypt" />
-        <item itemvalue="JUnit.ReverseSkipFirstEncryptTest.testReverseEncrypt" />
+        <item itemvalue="JUnit.All in Spring" />
+        <item itemvalue="JUnit.SHA512HashTest.sha512HashTest" />
+        <item itemvalue="JUnit.Crc32HashTest.adlerHashTest" />
+        <item itemvalue="JUnit.Adler32HashTest.adlerHashTest" />
+        <item itemvalue="JUnit.Adler32HashTest" />
       </list>
     </recent_temporary>
   </component>
@@ -134,6 +172,9 @@
       <workItem from="1597647666244" duration="510000" />
       <workItem from="1597655348471" duration="9595000" />
       <workItem from="1597940923058" duration="189000" />
+      <workItem from="1597941597613" duration="888000" />
+      <workItem from="1598705612620" duration="2627000" />
+      <workItem from="1598801419322" duration="3051000" />
     </task>
     <task id="LOCAL-00001" summary="configurations">
       <created>1597941052576</created>
@@ -149,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597941083089</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="configurations">
+      <created>1597941672498</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597941672498</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +208,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -174,7 +224,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ReverseEncryptTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/SHA512HashTest.java</url>
           <line>14</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -182,6 +232,21 @@
           <url>file://$PROJECT_DIR$/src/test/java/UsersRepositoryTest.java</url>
           <line>19</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/RegisterManager.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/HashExecutorFactory.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SHA512HashTest.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

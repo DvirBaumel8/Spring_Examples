@@ -8,11 +8,11 @@ import java.util.Scanner;
 public class RegisterManager {
     private UsersRepository usersRepository;
     private Scanner scanner = new Scanner(System.in);
-    private EncryptorsFactory encryptorsFactory;
+    private HashExecutorFactory hashExecutorFactory;
 
-    public RegisterManager(UsersRepository usersRepository, EncryptorsFactory encryptorsFactory) {
+    public RegisterManager(UsersRepository usersRepository, HashExecutorFactory hashExecutorFactory) {
         this.usersRepository = usersRepository;
-        this.encryptorsFactory = encryptorsFactory;
+        this.hashExecutorFactory = hashExecutorFactory;
     }
 
     public void run() throws Exception {
@@ -29,9 +29,8 @@ public class RegisterManager {
                 continue;
             }
 
-            String encryptMethodType = getEncryptMethodTypeFromConfigurationFile();
-            Encrypt encrypt = encryptorsFactory.getEncrypt(encryptMethodType);
-            encrypt.encrypt(userDetails);
+            HashExecutor hashExecutor = hashExecutorFactory.getEncoder();
+            userDetails.setPassword(hashExecutor.hash(userDetails.getPassword()));
             saveToDB(userDetails);
             System.out.println("User register successfully\n");
         }
@@ -55,24 +54,6 @@ public class RegisterManager {
 
     private void saveToDB(UserDetails userDetails) {
         usersRepository.addUser(userDetails);
-    }
-
-    private String getEncryptMethodTypeFromConfigurationFile() throws Exception {
-        ClassLoader classLoader = getClass().getClassLoader();
-        URL path = classLoader.getResource("conf.txt");
-        try {
-            List<String> lines = Files.readAllLines(Paths.get(path.toURI()));
-            for(String line : lines) {
-                if(line.contains("encrypt_method")) {
-                    return getEncryptMethodTypeFromLine(line);
-                }
-            }
-            throw new Exception("Encrypt method type wasn't defined in application.properties");
-
-        }
-        catch (Exception ex) {
-            throw new Exception("Configuration file isn't exist");
-        }
     }
 
     private String getEncryptMethodTypeFromLine(String s) {
